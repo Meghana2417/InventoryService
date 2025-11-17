@@ -38,7 +38,7 @@ pipeline {
 
                 docker pull meghana1724/inventoryservice:latest
 
-                docker run -d --name api -p 8000:8000 meghana1724/inventoryservice:latest
+                docker run -d --name api -p 8004:8004 meghana1724/inventoryservice:latest
                 '''
             }
         }
